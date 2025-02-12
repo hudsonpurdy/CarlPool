@@ -1,24 +1,35 @@
 # Externship2024
 
-Useful git commands
+Hudson Purdy, Raaid Iqbal, Mai Tran
 
-Clone repo:
-git clone https://github.com/kevinchristianson/Externship2024.git
-- then open repo: `cd Externship2024`
+Overseen and assisted by Kevin Christianson and Isaac Haseley
 
-Create your own branch (and move to it):
+Problem: As a student in Northfield without a car or reliable Ubers, I need a way to coordinate with other students on campus to carpool when scheduling rides and save money.
 
-`git checkout -b {your-branch-name}`
-`ex: git checkout -b kevin/newbranch`
+Solution: An app for Carleton students to share rides. Students could post when they are driving somewhere and can take people, or when they need a ride somewhere, and the compensation they can offer.
 
-[make your changes]
+Core Features:
+  Request Rides: Users can list their travel needs for
+  others to see and view requested rides.
+  
+  Post Rides: Users can share details about available 
+  rides, including time, location, cost, 
+  and available seats. Moreover, all 
+  available rides can also be viewed
+  
+  User Authentication: Secure session-based 
+  identification for enhanced features, 
+  such as post deletion.
 
-`git commit [-a] [-m ""]`
-- [-a]: commit all local changes
-- [-m "{message"]: Add a commit message (instead of writing it in vim)
-ex: `git commit -am "Made changes"`
+Architecture:
+  Frontend: JavaScript, React.JS, Vercel
+  
+  Backend: Python, Flask, Vercel
+   
+  Database: SQL on Azure
+  
+  APIs: Google Oauth2.0
 
-`git push --set-upstream origin/kevin/newbranch`
-- push changes to github repo
-- --set-upstream flag only required on first push
+
+
 
